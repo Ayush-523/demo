@@ -1,0 +1,23 @@
+
+ 1. What is Java and why is it considered "platform independent"? 
+Java is a high-level, object-oriented programming language. It is platform-independent because of the  Java Virtual Machine (JVM) . When you compile Java code, it turns into  Bytecode , which can run on any device that has a JVM installed, regardless of the underlying operating system.
+
+ 2. What is the difference between JDK, JRE, and JVM? 
+    JVM (Java Virtual Machine):  The engine that actually runs the Bytecode.
+    JRE (Java Runtime Environment):  Contains the JVM plus the libraries needed to run Java programs.
+    JDK (Java Development Kit):  The full software package that includes the JRE and development tools like the compiler (`javac`) and debugger.
+
+ 3. What are the eight primitive data types in Java? 
+Java has eight built-in primitive types for handling basic data: `byte`, `short`, `int`, `long`, `float`, `double`, `boolean`, and `char`. Unlike objects, these types store their values directly in memory for better performance.
+
+ 4. What is the entry point of any Java program? 
+The entry point is the  main method . It must follow a specific signature to be recognized by the JVM:
+`public static void main(String[] args)`
+
+ 5. What is the difference between `==` and `.equals()`? 
+    `==`  is an operator used to compare  primitive values  or to check if two object references point to the exact same  memory location .
+    .equals()  is a method used to compare the  actual content  or state of two objects (like checking if two different String objects contain the same text).
+
+
+ 6. Does Java support multiple inheritance? 
+Java does  not  support multiple inheritance with classes (one class extending two others) to avoid complexity and "diamond problem" errors. However, it does allow a class to implement multiple  interfaces .
