@@ -1,0 +1,43 @@
+Here are 5 basic Java Q&A that are useful for beginners:
+
+  
+
+    1. What is Java?    
+Java is a high-level, object-oriented programming language developed by Sun Microsystems (now owned by Oracle). It is platform-independent, meaning code written in Java can run on any system using the Java Virtual Machine (JVM).
+
+  
+
+    2. What is JVM, JRE, and JDK?    
+
+       JVM (Java Virtual Machine):     Executes Java bytecode.
+       JRE (Java Runtime Environment):     Provides libraries and JVM to run Java programs.
+       JDK (Java Development Kit):     A full package including JRE + development tools like compiler (`javac`).
+
+  
+
+    3. What is the difference between `==` and `.equals()` in Java?    
+
+   `==` compares memory references (whether two objects point to the same location).
+   `.equals()` compares actual content (values inside objects), especially in classes like String.
+
+  
+
+    4. What are the main features of Java?    
+
+   Object-Oriented
+   Platform Independent
+   Secure
+   Robust
+   Multithreaded
+   Portable
+
+  
+
+    5. What is a class and an object in Java?    
+
+       Class:     A blueprint or template for creating objects.
+       Object:     An instance of a class that contains data and methods.
+
+
+
+
